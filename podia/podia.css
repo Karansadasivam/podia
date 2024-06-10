@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  /* margin: 30px; */
+  background-color: rgb(247, 245, 243);
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+header {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  box-shadow: 2px;
+  padding: 14px 16px;
+}
+h1 {
+  color: rgb(27, 27, 167);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 10px;
+  top: 2px;
+  left: 10px;
+  padding: 2px;
+}
+h1:hover {
+  color: rgb(45, 3, 83);
+}
+.navbar {
+  position: fixed;
+}
+ul {
+  top: 3%;
+  width: 100%;
+  left: 15%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: rgb(213, 212, 211);
+  border-radius: 50px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.navmenu a {
+  color: rgb(30, 30, 44);
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px;
+  font-weight: 400;
+  transition: all 0.42s ease;
+}
+.login {
+  float: left;
+}
+.login a {
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+}
+.login ul {
+  position: fixed;
+  top: 3%;
+  width: 100%;
+  left: 75%;
+}
+.sign a {
+  border: 1px solid rgb(62, 62, 114);
+  border-radius: 50px;
+  background-color: rgb(12, 12, 152);
+  color: azure;
+}
+.sign a:hover {
+  background-color: rgb(56, 56, 91);
+}
+.container {
+  text-align: center;
+  position: relative;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 250;
+  font-size: xx-large;
+  font-size: 53px;
+  margin: 80px;
+}
+.container p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 250;
+  font-size: larger;
+  font-size: 24px;
+  margin: 70px;
+  top: 60px;
+  position: absolute;
+}
+.click button {
+  background-color: rgb(12, 12, 152);
+  color: aliceblue;
+  width: 15vw;
+  height: 7vh;
+  border-radius: 50px;
+  font-size: larger;
+  top: 5px;
+  border: none;
+}
+button:hover {
+  background-color: rgb(45, 45, 88);
+}
+.unit h1 {
+  text-align: center;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 350;
+  font-size: xx-large;
+  font-size: 40px;
+  margin: 100px;
+}
+.unit p{
+  text-align: center;
+  color: rgb(84, 84, 84);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: xx-large;
+   margin: 90px;
+   margin-top: 20px;
+}
+.side {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height:50% ;
+}
+.side h6{
+  color: rgb(198, 102, 102);
+}
+.side h1{
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+}
+.side p{
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.side li {
+  left: 20px;
+  margin: 30px;
+  padding: 3px;
+}
+.side img{
+position: absolute;
+ left: 100px;
+ width: 600px;
+ height: 550px;
+ left: 850px;
+ top: 1170px;
+}
+.list {
+  margin: 50px;
+}
+.list1:hover{
+  color: blue;
+}
+.list2:hover{
+  color: blue;
+}
+.list3:hover{
+  color: blue;
+}
+.seemore button{
+  background-color: rgb(224, 214, 214);
+  top: 1700px;
+  border-radius: 50px;
+  width: 10vw;
+  height: 7vh;
+  position: absolute;
+  left: 100px;
+  border: none;
+}
+.seemore button:hover{
+  background-color: rgb(183, 182, 182);
+}
+.container2{
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  width: 55%;
+  height:20% ;
+  top: 100px;
+}
+.container2 h6{
+  color: rgb(198, 102, 102);
+}
+.container2 h1{
+  color: black;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+}
+.container2 p{
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container2 li {
+  left: 20px;
+  margin: 5px;
+  padding: 2px;
+}
+.container2img img{
+ left: 750px;
+ width: 600px;
+ height: 550px;
+ top: 100px;
+ position: absolute;
+}
+.line {
+  margin: 40px;
+}
+.line1:hover{
+  color: blue;
+}
+.line2:hover{
+  color: blue;
+}
+.line3:hover{
+  color: blue;
+}
+.moresee button{
+  position: absolute;
+  background-color: rgb(224, 214, 214);
+  top: 850px;
+  border-radius: 50px;
+  width: 10vw;
+  height: 7vh;
+  left: 50px;
+  border: none;
+}
+.moresee button:hover{
+  background-color: rgb(183, 182, 182);
+}
+.container3{
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+  width: 55%;
+  height:10% ;
+  top: 100px;
+}
+.container3 h6{
+  color: rgb(198, 102, 102);
+}
+.container3 h1{
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+}
+.container3 p{
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container3 li {
+  left: 20px;
+  margin: 2px;
+  padding: 2px;
+}
+.container3img img{
+ left: 750px;
+ width: 700px;
+ height: 850px;
+ top: 100px;
+ position: absolute;
+}
+.inline {
+  margin: 10px;
+}
+.inline1:hover{
+  color: blue;
+}
+.inline2:hover{
+  color: blue;
+}
+.inline3:hover{
+  color: blue;
+}
+.see button{
+  position: absolute;
+  background-color: rgb(224, 214, 214);
+  top: 900px;
+  border-radius: 50px;
+  width: 10vw;
+  height: 7vh;
+  left: 50px;
+  border: none;
+}
+.see button:hover{
+  background-color: rgb(183, 182, 182);
+}
+.beside {
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  height:50% ;
+   position: relative;
+  top: 300px;
+}
+.beside h6{
+  color: rgb(198, 102, 102);
+}
+.beside h1{
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+}
+.beside p{
+  color: black;
+  font-weight: 100;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.beside li {
+  left: 20px;
+  margin: 10px;
+  padding: 2px;
+}
+.besideimg img{
+position: absolute;
+ width: 600px;
+ height: 550px;
+ left: 500px;
+top: 300px;
+bottom: 1700px;
+
+}
+.hitlist {
+  margin: 50px;
+}
+.hitlist1:hover{
+  color: blue;
+}
+.hitlist2:hover{
+  color: blue;
+}
+.hitlist3:hover{
+  color: blue;
+}
+.cmore button{
+  background-color: rgb(224, 214, 214);
+  top: 1150px;
+  border-radius: 50px;
+  width: 10vw;
+  height: 7vh;
+  position: absolute;
+  left: 100px;
+  border: none;
+}
+.cmore button:hover{
+  background-color: rgb(183, 182, 182);
+}
+.user{
+  margin: 30px;
+  padding: 2px;
+  background-color: rgb(230, 191, 131);
+  position: relative;
+  border: 1px solid black;
+}
+.user img{
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  width: 350px;
+  height: 400px;
+}
+.title{
+  display: block;
+  top: 200px;
+}
